@@ -369,3 +369,11 @@ lo hice en otro trabajo pero en este no me salio , no se si fue el scss. por que
   .img__galeria2 {
     width: 250px;
     height: 160px; } }
+
+.barramia {
+  max-width: 4vw; }
+
+.barramiaul {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap; }

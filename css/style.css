@@ -51,7 +51,7 @@ nav {
 
 .imagen1 {
   width: 100%;
-  height: 360px; }
+  height: auto; }
 
 .linea1 {
   border: solid 3px #fff1f2;
@@ -303,14 +303,17 @@ form textarea {
   font-size: 140%; }
 
 #carouselExampleControls {
-  margin-left: 15%;
-  width: 70%; }
+  width: 168%; }
 
-.container {
-  margin-top: 10px; }
+.img_carrousel {
+  width: 100%; }
 
-.justify-content-end {
-  justify-content: flex !important; }
+.carousel-item {
+  height: 30rem; }
+
+.container-fluid {
+  margin-top: 10px;
+  width: 100%; }
 
 .nav-link {
   background-color: #C7D0D8;

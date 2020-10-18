@@ -62,7 +62,7 @@ nav {
 
 .imagen1 {
     width: 100%;
-    height: 360px;
+    height: auto;
 }
 
 .linea1 {
@@ -366,16 +366,20 @@ form {
 }
 
 #carouselExampleControls {
-    margin-left: 15%;
-    width: 70%;
+    width: 168%;
 }
 
-.container {
+.img_carrousel {
+    width: 100%;
+}
+
+.carousel-item {
+    height: 30rem;
+}
+
+.container-fluid {
     margin-top: 10px;
-}
-
-.justify-content-end {
-    justify-content: flex!important;
+    width: 100%;
 }
 
 .nav-link {

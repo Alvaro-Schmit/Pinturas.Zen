@@ -468,9 +468,3 @@ lo hice en otro trabajo pero en este no me salio , no se si fue el scss. por que
     flex-direction: row;
     flex-flow: nowrap;
 }
-
-*,
-*::before,
-*::after {
-    box-sizing: revert;
-}

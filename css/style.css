@@ -344,3 +344,6 @@ body {
   .img__galeria2 {
     width: 250px;
     height: 160px; } }
+
+.bg-light {
+  background-color: #093248 !important; }

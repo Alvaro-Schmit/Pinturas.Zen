@@ -1,12 +1,14 @@
 * {
-  background-color: #093248; }
+  background-color: #093248;
+  box-sizing: border-box; }
 
 .logo {
   margin: 8px 10px; }
 
+/*
 nav {
-  display: flex; }
-
+    display: flex;
+}*/
 .titulo {
   font-size: 81px;
   letter-spacing: 7px;
@@ -277,36 +279,45 @@ form textarea {
 .img_carrousel {
   width: 100%; }
 
+/*
 .nav-link {
-  background-color: #C7D0D8;
-  border-radius: 2px;
-  margin: 20px 20px 10px 0px;
-  width: 110px;
-  border-radius: 4px;
-  font-weight: 700;
-  text-align: center;
-  padding: 6px;
-  border-top: solid 2px black !important;
-  border-right: solid 2px black !important; }
+    background-color: #C7D0D8;
+    border-radius: 2px;
+    margin: 20px 20px 10px 0px;
+    width: 110px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-align: center;
+    padding: 6px;
+    border-top: solid 2px black!important;
+    border-right: solid 2px black !important;
+}
 
 .nav-link--inicio {
-  width: 120px;
-  height: 50px;
-  padding-top: 13px; }
+    width: 120px;
+    height: 50px;
+    padding-top: 13px;
+}
 
-.nav-link:hover {
-  color: #0a2331 !important;
-  background-color: #fafafa !important;
-  font-size: 17px;
-  height: 41px; }
+.nav-link {
+    &:hover {
+        color: #0a2331 !important;
+        background-color: #fafafa !important;
+        font-size: 17px;
+        height: 41px;
+    }
+}
 
-.nav-link--inicio:hover {
-  width: 122px;
-  height: 52px !important; }
+.nav-link--inicio {
+    &:hover {
+        width: 122px;
+        height: 52px!important;
+    }
+}
 
 .nav-item--ajuste {
-  padding-top: 7px; }
-
+    padding-top: 7px;
+}*/
 body {
   background-color: #093248; }
 
@@ -318,12 +329,11 @@ body {
   border-right: solid 2px #0D2939;
   color: #093248; }
 
-/*menu hambuerguesa*/
-/*estuve tratando de hacer el menu hamburguesa pero me enloquecio jajaja.
-lo hice en otro trabajo pero en este no me salio , no se si fue el scss. por que donde lo intente hacer no tenia scss.
+/*menu hambuerguesa
 
-*/
-/*aqui estoy aplicando el div class= col... pero onestamente me falta mucho de encontrarle la vuelta*/
+
+
+/* galeria*/
 .imagenes__galeria2 {
   padding-left: 5%; }
 

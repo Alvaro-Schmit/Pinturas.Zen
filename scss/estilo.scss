@@ -1,15 +1,17 @@
 * {
-    background-color: #c9d6dd;
+    background-color: #093248;
     box-sizing: border-box;
 }
 
 .logo {
-    margin: 8px 100px;
+    margin: 8px 10px;
 }
 
+
+/*
 nav {
     display: flex;
-}
+}*/
 
 .titulo {
     font-size: 81px;
@@ -335,6 +337,8 @@ form {
     width: 100%;
 }
 
+
+/*
 .nav-link {
     background-color: #C7D0D8;
     border-radius: 2px;
@@ -372,7 +376,7 @@ form {
 
 .nav-item--ajuste {
     padding-top: 7px;
-}
+}*/
 
 @import "colores";
 body {
@@ -390,16 +394,11 @@ body {
 }
 
 
-/*menu hambuerguesa*/
+/*menu hambuerguesa
 
 
-/*estuve tratando de hacer el menu hamburguesa pero me enloquecio jajaja.
-lo hice en otro trabajo pero en este no me salio , no se si fue el scss. por que donde lo intente hacer no tenia scss.
 
-*/
-
-
-/*aqui estoy aplicando el div class= col... pero onestamente me falta mucho de encontrarle la vuelta*/
+/* galeria*/
 
 .imagenes__galeria2 {
     padding-left: 5%;

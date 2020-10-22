@@ -3,7 +3,7 @@
   box-sizing: border-box; }
 
 .logo {
-  margin: 8px 10px; }
+  margin: 0px 10px; }
 
 /*
 nav {
@@ -147,7 +147,8 @@ nav {
   .logo {
     width: 40%;
     margin-right: 0%;
-    padding: 5px 0px 0px 5px; }
+    padding: 5px 0px 0px 5px;
+    min-width: 200px; }
   .menu {
     display: block;
     margin-left: 0%;
@@ -279,20 +280,20 @@ form textarea {
 .img_carrousel {
   width: 100%; }
 
-/*
-.nav-link {
+@media only screen and (min-width: 992px) {
+  .nav-link {
     background-color: #C7D0D8;
     border-radius: 2px;
-    margin: 20px 20px 10px 0px;
+    margin: 6px 18px 10px 0px;
     width: 110px;
     border-radius: 4px;
     font-weight: 700;
     text-align: center;
     padding: 6px;
-    border-top: solid 2px black!important;
-    border-right: solid 2px black !important;
-}
+    border-top: solid 2px black !important;
+    border-right: solid 2px black !important; } }
 
+/*
 .nav-link--inicio {
     width: 120px;
     height: 50px;

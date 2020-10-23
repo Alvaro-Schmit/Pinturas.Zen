@@ -1,5 +1,4 @@
 * {
-  background-color: #093248;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -8,10 +7,6 @@
   margin: 0px 10px;
 }
 
-/*
-nav {
-    display: flex;
-}*/
 .titulo {
   font-size: 81px;
   letter-spacing: 7px;
@@ -340,7 +335,7 @@ input[type=submit]:hover {
 
 .formulario {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #093248;
   width: 50%;
   margin: 0% 25% 0% 25%;
 }
@@ -417,6 +412,8 @@ form textarea {
     width: 110px;
     border-radius: 4px;
     font-weight: 700;
+    font-size: 21px;
+    color: #0c1b24 !important;
     text-align: center;
     padding: 6px;
     border-top: solid 2px black !important;
@@ -424,32 +421,6 @@ form textarea {
   }
 }
 
-/*
-.nav-link--inicio {
-    width: 120px;
-    height: 50px;
-    padding-top: 13px;
-}
-
-.nav-link {
-    &:hover {
-        color: #0a2331 !important;
-        background-color: #fafafa !important;
-        font-size: 17px;
-        height: 41px;
-    }
-}
-
-.nav-link--inicio {
-    &:hover {
-        width: 122px;
-        height: 52px!important;
-    }
-}
-
-.nav-item--ajuste {
-    padding-top: 7px;
-}*/
 body {
   background-color: #093248;
 }
@@ -458,16 +429,7 @@ body {
   background-color: #093248;
 }
 
-.nav-link {
-  border-top: solid 2px #0D2939;
-  border-right: solid 2px #0D2939;
-  color: #093248;
-}
-
-/*menu hambuerguesa
-
-
-
+/*menu hambuerguesa*/
 /* galeria*/
 .imagenes__galeria2 {
   padding-left: 5%;
@@ -486,5 +448,28 @@ body {
 
 .bg-light {
   background-color: #093248 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 70px;
+    left: 10%;
+  }
+  .nav-link {
+    background-color: #C7D0D8;
+    opacity: 0.9;
+    border-radius: 2px;
+    margin: 6px 0px 6px 0px;
+    width: 110px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    color: #0c1b24 !important;
+    padding: 6px;
+    border-top: solid 2px black !important;
+    border-right: solid 2px black !important;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */

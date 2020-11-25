@@ -470,6 +470,9 @@ body {
     display: none;
     padding-left: 0px;
   }
+  .espacio_movil {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -477,7 +480,7 @@ body {
     display: none;
   }
   .titulo {
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 2px;
     margin-left: 3%;
     margin-top: 10px;
@@ -486,8 +489,8 @@ body {
   }
   .subtitulo {
     margin-left: 5%;
-    margin-top: 12px;
-    font-size: 13px;
+    margin-top: 14px;
+    font-size: 17px;
     color: #fff1f2;
   }
   .linea1 {
